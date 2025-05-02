@@ -1,0 +1,20 @@
+{
+    "ADMIN": {
+        "username": "ADMIN",
+        "fullname": "ADMIN",
+        "password": "$2y$10$6SR6Wh0CTMIgdyG9ue8iGuvgxXHtL49bgMT2\/WMUc2Fdo.4.Wx67a",
+        "email": "",
+        "age": "",
+        "discount": "",
+        "student_id": ""
+    },
+    "Proba": {
+        "username": "Proba",
+        "fullname": "Proba",
+        "password": "$2y$10$Th.gxPGCgS1gu1MdUxZ.XOKalA.GjSUmgTueeGaqfMmbg2OsiQzKG",
+        "email": "",
+        "age": "",
+        "discount": "",
+        "student_id": ""
+    }
+}

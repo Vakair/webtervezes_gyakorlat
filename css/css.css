@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("../img/darkdark.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefefe;
+}
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    background: #fefefe;
+}
+
+.nav-bar ul li a.active {
+    color: #11101b;
+    background: #fefefe;
+}
+
+
+.fooldal{
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+.fooldal h1{
+    font-size: 70px;
+    margin-top: 50px;
+}
+.fooldal h2{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.fooldal p{
+    font-size: 20px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.ertekelo-sav {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+.ertekelo-sav li {
+    display: inline;
+    margin-right: 5px;
+}
+.ertekelo-sav li label {
+    cursor: pointer;
+}
+
+
+
+
+
+
+.admin {
+    text-align: center;
+    margin: auto;
+
+}
+
+.admin h1 {
+    font-size: 70px;
+    margin-top: 50px;
+    color: white;
+}
+.admin .button {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, -1);
+    cursor: pointer;
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+}
+

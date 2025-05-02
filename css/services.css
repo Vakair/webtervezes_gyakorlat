@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Árnyék */
+    background-color: #fff; /* Táblázat háttérszín */
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-size: 28px;
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white; /* Táblázat háttérszín */
+    border-radius: 8px;
+}
+th, td {
+    font-size: 15px;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+}
+th {
+    background-color: darkgrey;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    border: 1px solid rgba(255,255,255, .2);
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+}
+
+.notification {
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

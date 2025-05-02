@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("../img/darkdark.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefefe;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    background: #fefefe;
+}
+
+.nav-bar ul li a.active {
+    color: #11101b;
+    background: #fefefe;
+}
+
+
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kosar {
+    margin: 50px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.kep {
+    flex: 1 1 300px;
+    margin: 10px;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.info {
+    flex: 2 1 auto;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.aktiv {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 49%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.rendelesek {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.tablazat {
+    width: 25%;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.tablazat td{
+    width: 25%;
+    padding: 5px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.szerkesztes {
+    text-align: right;
+    margin: 10px;
+    padding: 2px;
+}
+
+.gomb {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.gomb:hover {
+    background-color: #444;
+}
+
+.delete:hover {
+    background-color: red;
+}
+
+
+/* KOSÁR */
+
+
+.items {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    width: 60%;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.price {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    text-align: left;
+    width: 60%;
+}
+
+.table2{
+    width: 25%;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.osszeg {
+    float: right;
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+}
+
+.torles {
+    text-align: right;
+    margin: 10px;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttonbuy {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #444;
+}
+
+.buttonbuy:hover {
+    background-color: #444;
+}
+
+.leiras {
+    width: 90%;
+}
+
+.termek {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.items h2 {
+    text-align: center;
+}
+
+.price h2 {
+    text-align: center;
+}
+
+.notification {
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Plusz és mínusz gombok formázása */
+
+.plus_button {
+    background-color: #333;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.plus_button:hover {
+    background-color: #444444;
+}
+
+.minus_button {
+    background-color: #333;
+    color: white;
+    padding: 11px 11px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.minus_button:hover {
+    background-color: #444444;
+}
